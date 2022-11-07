@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/img_1"
+    tools:context=".skincare">
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="96dp"
+        android:layout_height="73.21dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="30dp"
+        app:srcCompat="@drawable/logo" />
+
+    <ImageView
+        android:id="@+id/rectangle_12"
+        android:layout_marginStart="37dp"
+        android:layout_marginTop="165dp"
+        android:layout_width="126dp"
+        android:layout_height="128dp"
+        app:srcCompat="@drawable/rectangle_12"/>
+
+    <ImageView
+        android:id="@+id/rectangle_4"
+        android:layout_marginStart="225dp"
+        android:layout_marginTop="165dp"
+        android:layout_width="126dp"
+        android:layout_height="128dp"
+        app:srcCompat="@drawable/rectangle_4"/>
+
+    <ImageView
+        android:id="@+id/rectangle_9"
+        android:layout_width="126dp"
+        android:layout_height="128dp"
+        android:layout_marginStart="37dp"
+        android:layout_marginTop="430dp"
+        app:srcCompat="@drawable/rectangle_9"/>
+
+    <ImageView
+        android:id="@+id/rectangle_11"
+        android:layout_marginStart="225dp"
+        android:layout_marginTop="430dp"
+        android:layout_width="126dp"
+        android:layout_height="128dp"
+        app:srcCompat="@drawable/rectangle_11"/>
+
+    <TextView
+        android:layout_width="147dp"
+        android:layout_height="87dp"
+        android:layout_marginStart="37dp"
+        android:layout_marginTop="300dp"
+        android:fontFamily="@font/comic"
+        android:text="SKINTIFIC"
+        android:textColor="@color/black"
+        android:textSize="10sp"/>
+
+    <TextView
+        android:layout_width="160dp"
+        android:layout_height="87dp"
+        android:layout_marginStart="37dp"
+        android:layout_marginTop="317dp"
+        android:fontFamily="@font/comic"
+        android:text="5X Ceramide Soothing Toner 80 ml"
+        android:textColor="@color/grayscle"
+        android:textSize="9sp" />
+
+    <TextView
+        android:id="@+id/hargaceramide"
+        android:layout_width="147dp"
+        android:layout_height="87dp"
+        android:layout_marginStart="37dp"
+        android:layout_marginTop="343dp"
+        android:fontFamily="@font/comic"
+        android:text="Rp 128.800"
+        android:textColor="@color/red"
+        android:textSize="9sp"/>
+
+    <TextView
+        android:id="@+id/ROJUKISS"
+        android:layout_width="147dp"
+        android:layout_height="87dp"
+        android:layout_marginStart="37dp"
+        android:layout_marginTop="565dp"
+        android:fontFamily="@font/comic"
+        android:text="ROJUKISS"
+        android:textColor="@color/black"
+        android:textSize="10sp" />
+
+    <TextView
+        android:id="@+id/rojukiss_tea_tree_bija_pro_acne_serum_8ml"
+        android:layout_width="147dp"
+        android:layout_height="87dp"
+        android:layout_marginStart="37dp"
+        android:layout_marginTop="582dp"
+        android:fontFamily="@font/comic"
+        android:text="Tea Tree Bija Pro Acne Serum 8ml"
+        android:textColor="@color/grayscle"
+        android:textSize="9sp" />
+
+    <TextView
+        android:id="@+id/hargarojukis"
+        android:layout_width="147dp"
+        android:layout_height="87dp"
+        android:layout_marginStart="37dp"
+        android:layout_marginTop="608dp"
+        android:fontFamily="@font/comic"
+        android:text="RP 19.800"
+        android:textColor="@color/red"
+        android:textSize="9sp" />
+
+    <TextView
+        android:id="@+id/CARASUN"
+        android:layout_width="147dp"
+        android:layout_height="87dp"
+        android:layout_marginStart="225dp"
+        android:layout_marginTop="300dp"
+        android:fontFamily="@font/comic"
+        android:text="CARASUN"
+        android:textColor="@color/black"
+        android:textSize="10sp" />
+
+    <TextView
+        android:id="@+id/solkar_smart_uv_protector_30ml_string"
+        android:layout_width="160dp"
+        android:layout_height="87dp"
+        android:layout_marginStart="225dp"
+        android:layout_marginTop="317dp"
+        android:fontFamily="@font/comic"
+        android:text="Solkar Smart UV Protector 30ml"
+        android:textColor="@color/grayscle"
+        android:textSize="9sp" />
+
+    <TextView
+        android:id="@+id/hargacarasun"
+        android:layout_width="147dp"
+        android:layout_height="87dp"
+        android:layout_marginStart="225dp"
+        android:layout_marginTop="343dp"
+        android:fontFamily="@font/comic"
+        android:text="Rp 60.100"
+        android:textColor="@color/red"
+        android:textSize="9sp" />
+
+    <TextView
+        android:id="@+id/DERMA"
+        android:layout_width="147dp"
+        android:layout_height="87dp"
+        android:layout_marginStart="225dp"
+        android:layout_marginTop="565dp"
+        android:fontFamily="@font/comic"
+        android:text="DERMA ANGEL"
+        android:textColor="@color/black"
+        android:textSize="10sp" />
+
+    <TextView
+        android:id="@+id/derma_angel_acne_patch_night__12_patch__rp_29_250_string"
+        android:layout_width="147dp"
+        android:layout_height="87dp"
+        android:layout_marginStart="225dp"
+        android:layout_marginTop="582dp"
+        android:fontFamily="@font/comic"
+        android:text="Acne Patch Night (12 Patch)"
+        android:textColor="@color/grayscle"
+        android:textSize="9sp" />
+
+    <TextView
+        android:id="@+id/hargaderma"
+        android:layout_width="147dp"
+        android:layout_height="87dp"
+        android:layout_marginStart="225dp"
+        android:layout_marginTop="608dp"
+        android:fontFamily="@font/comic"
+        android:text="RP 29.250"
+        android:textColor="@color/red"
+        android:textSize="9sp" />
+
+</RelativeLayout>

@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/img_1"
+    tools:context=".skincare">
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="96dp"
+        android:layout_height="73.21dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="30dp"
+        app:srcCompat="@drawable/logo" />
+
+    <ImageView
+        android:id="@+id/rectangle_12_ek1"
+        android:layout_marginStart="37dp"
+        android:layout_marginTop="165dp"
+        android:layout_width="126dp"
+        android:layout_height="128dp"
+        app:srcCompat="@drawable/rectangle_12_ek1"/>
+
+    <ImageView
+        android:id="@+id/rectangle_4"
+        android:layout_marginStart="225dp"
+        android:layout_marginTop="165dp"
+        android:layout_width="126dp"
+        android:layout_height="128dp"
+        app:srcCompat="@drawable/rectangle_13"/>
+
+    <ImageView
+        android:id="@+id/rectangle_9"
+        android:layout_width="126dp"
+        android:layout_height="128dp"
+        android:layout_marginStart="37dp"
+        android:layout_marginTop="430dp"
+        app:srcCompat="@drawable/rectangle_9_ek1"/>
+
+    <ImageView
+        android:id="@+id/rectangle_11"
+        android:layout_marginStart="225dp"
+        android:layout_marginTop="430dp"
+        android:layout_width="126dp"
+        android:layout_height="128dp"
+        app:srcCompat="@drawable/rectangle_11_ek1"/>
+
+    <TextView
+        android:layout_width="147dp"
+        android:layout_height="87dp"
+        android:layout_marginStart="37dp"
+        android:layout_marginTop="300dp"
+        android:fontFamily="@font/comic"
+        android:text="Bio Oil"
+        android:textColor="@color/black"
+        android:textSize="10sp"/>
+
+    <TextView
+        android:layout_width="160dp"
+        android:layout_height="87dp"
+        android:layout_marginStart="37dp"
+        android:layout_marginTop="317dp"
+        android:fontFamily="@font/comic"
+        android:text="Bio-Oil 60 m"
+        android:textColor="@color/grayscle"
+        android:textSize="9sp" />
+
+    <TextView
+        android:id="@+id/hargabiooil"
+        android:layout_width="147dp"
+        android:layout_height="87dp"
+        android:layout_marginStart="37dp"
+        android:layout_marginTop="343dp"
+        android:fontFamily="@font/comic"
+        android:text="Rp 142.000"
+        android:textColor="@color/red"
+        android:textSize="9sp"/>
+
+    <TextView
+        android:id="@+id/PRECIOUS_SKIN"
+        android:layout_width="147dp"
+        android:layout_height="87dp"
+        android:layout_marginStart="37dp"
+        android:layout_marginTop="565dp"
+        android:fontFamily="@font/comic"
+        android:text="PRECIOUS SKIN"
+        android:textColor="@color/black"
+        android:textSize="10sp" />
+
+    <TextView
+        android:id="@+id/Alpha_Arbutin_Salt_Scrub"
+        android:layout_width="147dp"
+        android:layout_height="87dp"
+        android:layout_marginStart="37dp"
+        android:layout_marginTop="582dp"
+        android:fontFamily="@font/comic"
+        android:text="Alpha Arbutin Salt Scrub"
+        android:textColor="@color/grayscle"
+        android:textSize="9sp" />
+
+    <TextView
+        android:id="@+id/hargaskin"
+        android:layout_width="147dp"
+        android:layout_height="87dp"
+        android:layout_marginStart="37dp"
+        android:layout_marginTop="608dp"
+        android:fontFamily="@font/comic"
+        android:text="Rp 59.000"
+        android:textColor="@color/red"
+        android:textSize="9sp" />
+
+    <TextView
+        android:id="@+id/VASELINE"
+        android:layout_width="147dp"
+        android:layout_height="87dp"
+        android:layout_marginStart="225dp"
+        android:layout_marginTop="300dp"
+        android:fontFamily="@font/comic"
+        android:text="VASELIN"
+        android:textColor="@color/black"
+        android:textSize="10sp" />
+
+    <TextView
+        android:id="@+id/Repairing_Hand_Mask_Twinpack"
+        android:layout_width="160dp"
+        android:layout_height="87dp"
+        android:layout_marginStart="225dp"
+        android:layout_marginTop="317dp"
+        android:fontFamily="@font/comic"
+        android:text="Repairing Hand Mask Twinpack"
+        android:textColor="@color/grayscle"
+        android:textSize="9sp" />
+
+    <TextView
+        android:id="@+id/hargavaseline"
+        android:layout_width="147dp"
+        android:layout_height="87dp"
+        android:layout_marginStart="225dp"
+        android:layout_marginTop="343dp"
+        android:fontFamily="@font/comic"
+        android:text="Rp 77.000"
+        android:textColor="@color/red"
+        android:textSize="9sp" />
+
+    <TextView
+        android:id="@+id/HUANGJISOO"
+        android:layout_width="147dp"
+        android:layout_height="87dp"
+        android:layout_marginStart="225dp"
+        android:layout_marginTop="565dp"
+        android:fontFamily="@font/comic"
+        android:text="HUANGJISOO"
+        android:textColor="@color/black"
+        android:textSize="10sp" />
+
+    <TextView
+        android:id="@+id/Hand_Gel"
+        android:layout_width="147dp"
+        android:layout_height="87dp"
+        android:layout_marginStart="225dp"
+        android:layout_marginTop="582dp"
+        android:fontFamily="@font/comic"
+        android:text="Hand Gel"
+        android:textColor="@color/grayscle"
+        android:textSize="9sp" />
+
+    <TextView
+        android:id="@+id/hargahuangjisoo"
+        android:layout_width="147dp"
+        android:layout_height="87dp"
+        android:layout_marginStart="225dp"
+        android:layout_marginTop="608dp"
+        android:fontFamily="@font/comic"
+        android:text="RP 100.000"
+        android:textColor="@color/red"
+        android:textSize="9sp" />
+
+</RelativeLayout>
